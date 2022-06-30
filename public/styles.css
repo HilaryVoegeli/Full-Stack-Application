@@ -1,0 +1,36 @@
+.grid{
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: auto 1fr auto;
+    gap: 5px;
+    height: 90vh; 
+}
+.section{
+  font-size: 1em;
+  font-weight: 800;
+}
+header, aside, article, footer{
+    border-style: solid;
+    font-size: 1em;
+}
+aside{
+  background: #e98e60;    
+}
+article{
+  background: #f0ebb9;    
+}
+header, footer{
+  grid-column: 1 / 4;
+  background: #bb94fa;    
+}
+
+body{
+  font-family :Georgia, 'Times New Roman', Times, serif;
+}
+button{
+    font-size: 1em;
+}
+img{
+  height: 32px;
+  width: 32px;
+}
